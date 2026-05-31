@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'https://event-calendar-crud-app.onrender.com/events',
+  baseURL: 'http://127.0.0.1:8000',
 })
 
 export default API;
