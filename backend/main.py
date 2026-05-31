@@ -34,6 +34,10 @@ def get_db():
     db.close()
 
 
+@app.get('/')
+def home():
+  return {"message":"Event Calendar API is running"}
+
 
 
 
